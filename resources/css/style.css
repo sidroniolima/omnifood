@@ -319,15 +319,19 @@ header
   background-color: #f4f4f4;
 }
 
+.steps-box {
+  margin-top: 30px;  
+}
+
 .steps-box:first-child
 {
-  text-align: right;
+  text-align: center;
   padding-right: 3%;
-  margin-top: 30px;
 }
 
 .steps-box:last-child
 {
+  text-align: left;
   padding-left: 3%;
   margin-top: 70px;
 }
